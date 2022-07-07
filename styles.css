@@ -1,0 +1,38 @@
+
+
+.title{
+    color:brown;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+.homebutton{
+    background-color: red;
+    color: blue;
+    font-size: 50px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.recipebutton{
+    font-weight: bold;
+}
+
+img{
+    height: auto;
+    width: 400px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.subtitle{
+    color: red;
+    font-size: 25px;
+}
+
+.container{
+    padding: 20px;
+    width: 400px;
+    margin: 20px;
+}

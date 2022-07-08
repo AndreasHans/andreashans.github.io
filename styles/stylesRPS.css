@@ -1,0 +1,73 @@
+@font-face {
+    font-family: sans-serif;
+    src: url(fonts/SourceSansPro-Regular.ttf);
+}
+
+.top{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+    border: 2px solid #161d25;
+    border-radius: 20px;
+    padding: 10px;
+  }
+
+
+
+body{
+    background-color: rgb(212, 227, 240);
+}
+
+#container{
+    margin-top: 100px;
+    margin-inline: auto;
+    background-color: #395781;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-around;
+    align-items: center;
+
+
+    font-size: 30px;
+    font-weight: bold;
+    height: 600px;
+    width: 900px;
+    border-radius: 20px;
+    border: 10px solid #161d25;
+}
+
+
+#row{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+button{
+    height: 100px;
+    width: 150px;
+    padding: 10px;
+    margin-top: 30px;
+    font-size: 20px;
+    border: 2px solid #161d25;
+    background-color: #3b72c0;
+    border-radius: 20px;
+}
+
+*{
+    font-family: sans-serif;
+}
+
+#containertop{
+    width: 300px;
+    display: flex;
+    gap: 20px;
+}
+
+#home{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+

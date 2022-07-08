@@ -101,6 +101,7 @@ class GameModel{
     }
 }
 
+
 class GameView{
 
     constructor(){

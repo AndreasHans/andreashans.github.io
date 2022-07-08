@@ -37,6 +37,9 @@ body{
     border: 10px solid #161d25;
 }
 
+*{
+    font-family: sans-serif;
+}
 
 #row{
     display: flex;
@@ -55,9 +58,7 @@ button{
     border-radius: 20px;
 }
 
-*{
-    font-family: sans-serif;
-}
+
 
 #containertop{
     width: 300px;

@@ -1,2 +1,2 @@
-# andreashans.github.io
+# https://andreashans.github.io/pages/
 Personal website

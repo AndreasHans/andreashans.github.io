@@ -30,8 +30,12 @@ export const NavBar: FC<NavBarProps> = () => {
                 <button className="homebutton"> Calculator</button>
             </a>
 
-            <a href="calculator2">
+            <a href="#/calculator2">
                 <button className="homebutton"> Calculator2</button>
+            </a>
+
+            <a href="#/graph">
+                <button className="homebutton"> Graph</button>
             </a>
 
         </div>

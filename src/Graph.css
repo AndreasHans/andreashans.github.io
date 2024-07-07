@@ -1,0 +1,10 @@
+.graph{
+    border-collapse: collapse;
+    border: 1px solid black;
+
+}
+
+.graphCenter{
+    display: flex;
+    justify-content: center;
+}

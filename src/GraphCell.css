@@ -1,0 +1,29 @@
+.graphCell{
+    height: 1rem;
+    width: 1rem;
+    padding: 0;
+}
+
+.graphCell:hover{
+    background-color: aqua;
+}
+
+.graphCellStart{
+    background-color: green;
+}
+
+.graphCellFinish{
+    background-color: red;
+}
+
+.graphCellBlocked{
+    background-color: black;
+}
+
+.graphCellNotSelected{
+    background-color: white;
+}
+
+.graphCellPath{
+    background-color: lightgreen;
+}

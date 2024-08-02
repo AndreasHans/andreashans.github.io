@@ -1,0 +1,43 @@
+.modal{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0,0,0,0.75);
+    color: black;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    position: fixed;
+    padding-top: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.modal-hide{
+    display: none;
+}
+
+.modal-content{
+    background-color: white;
+    padding: 1rem;
+
+    max-width: 300px;
+    max-height: 100px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.modal-button{
+    padding: 8px;
+    margin: 4px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+}
+
+.modal-button:hover{
+    background-color: blue;
+}

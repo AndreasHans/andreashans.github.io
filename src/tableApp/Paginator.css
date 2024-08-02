@@ -1,0 +1,17 @@
+.paginator{
+    display: flex;
+    justify-content: center;
+
+    .paginator-currentpage{
+        padding: 4px;
+        margin: 4px;
+
+    }
+
+    .paginator-button{
+        padding: 4px;
+        margin: 4px;
+    }
+
+
+}

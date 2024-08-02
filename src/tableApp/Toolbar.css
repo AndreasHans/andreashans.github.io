@@ -1,0 +1,30 @@
+.toolbar-wrapper{
+    display: flex;
+    justify-content: center;
+
+
+    .toolbar-button{
+        padding: 8px;
+        color: white;
+        background-color: darkblue;
+        border: darkblue;
+        border-radius: 4px;
+        margin: 8px;
+        cursor: pointer;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 14px;
+    }
+
+    .toolbar-button:hover{
+        background-color: blue;
+    }
+
+    .toolbar-button:disabled{
+        cursor:not-allowed;
+        opacity: 0.5;
+    }
+
+    #import-button{
+        display: none;
+    }
+}

@@ -67,6 +67,11 @@ export const NavBar: FC<NavBarProps> = () => {
                     </a>
                 </li>
 
+                <li>
+                    <a href="sliding-puzzle.html">
+                        <button className="homebutton"> Sliding Puzzle</button>
+                    </a>
+                </li>
             </ul>
         </div>
     );
